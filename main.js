@@ -2,10 +2,6 @@ function showAndHideMenu() {
     $('.hamburger-menu').toggleClass('active');
 }
 
-$('.fa-bars').click(function () {
-    showAndHideMenu();
-})
-
-$('.fa-times').click(function () {
+$('.fa-times, .fa-bars').click(function () {
     showAndHideMenu();
 })
