@@ -1,15 +1,11 @@
-function showMenu() {
-    $('.hamburger-menu').addClass('active');
-}
-
-function hideMenu() {
-    $('.hamburger-menu').removeClass('active');
+function showAndHideMenu() {
+    $('.hamburger-menu').toggleClass('active');
 }
 
 $('.fa-bars').click(function () {
-    showMenu();
+    showAndHideMenu();
 })
 
 $('.fa-times').click(function () {
-    hideMenu();
+    showAndHideMenu();
 })
